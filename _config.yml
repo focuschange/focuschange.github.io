@@ -18,14 +18,12 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 하얀눈길의 블로그                          # the main title
+title: 하얀눈길 블로그                          # the main title
 
-tagline: Jekyll theme   # it will display as the sub-title
+tagline: 반갑습니다. 하얀눈길입니다. 더 잊어버리기 전에 기록하려 합니다
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  하얀눈길, 검색, 정보검색, information retrieval, irgroup
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://focuschange.github.io'
@@ -33,8 +31,8 @@ url: 'https://focuschange.github.io'
 github:
   username: focuschange             # change to your github username
 
-twitter:
-  username: twitter_username            # change to your twitter username
+#twitter:
+#  username: twitter_username            # change to your twitter username
 
 social:
   # Change to your full name.
@@ -43,10 +41,10 @@ social:
   email: focuschange@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    #- https://twitter.com/username      # change to your twitter homepage
+    - https://github.com/focuschange       # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
+    - https://www.facebook.com/focuschange
     # - https://www.linkedin.com/in/username
 
 google_site_verification: google_meta_tag_verification # change to your verification string
@@ -82,7 +80,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: '/assets/img/myava.jpg'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
