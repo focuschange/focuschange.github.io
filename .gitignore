@@ -16,3 +16,8 @@ vendor
 node_modules
 package-lock.json
 Gemfile.lock
+
+_posts/2021-12-14-test.md
+_layouts/post.html.org
+_layouts/post.html.utterance
+

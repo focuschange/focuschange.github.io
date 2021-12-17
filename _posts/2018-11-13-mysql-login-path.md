@@ -14,14 +14,15 @@ extensions:
 ---
 
 
-> mysql 5.6부터 보안 문제로 인해 패스워드를 커맨드라인에서 직접 입력하기 어려워졌습니다.
-> 대신에 login path라는 것을 사용하면 되는데요. 커맨드를 자주 잊어버리네요. 
-> "Warning: using a password on the command line interface can be insecure. " 이런 메세지가 출력될 때 사용하면 되겠네요.
+> mysql 5.6부터 보안 문제로 인해 패스워드를 커맨드라인에서 직접 입력하기 어려워졌습니다.\
+> 대신에 login path라는 것을 사용하면 되는데요. 커맨드를 자주 잊어버리네요. \
+> "Warning: using a password on the command line interface can be insecure. " 이런 메세지가 출력될 때 사용하면 되겠네요.\
 > 간단한 사용법을 정리해 봅니다.
 
 
-# 1. login path help
+# login path help
 
+```bash
     $ mysql_config_editor --help
     mysql_config_editor Ver 1.0 Distrib 5.7.18, for linux-glibc2.5 on x86_64
     Copyright (c) 2012, 2017, Oracle and/or its affiliates. All rights reserved.
@@ -49,12 +50,12 @@ extensions:
                                  login path.
        reset [command options]   Deletes the contents of the login file.
        help                      Display this usage/help information.
-
+```
 
 흠.. 간단하네요..
 
 
-# 2. generate login path 
+# generate login path 
 
 
     $ mysql_config_editor set --login-path=설정이름 --host=주소 --user=아이디 --port=포트 --password
@@ -62,7 +63,7 @@ extensions:
      
   
     
-# 3. print login path
+# print login path
 
     $ mysql_config_editor print --login-path=설정이름
     [myroot]
@@ -77,18 +78,18 @@ extensions:
 
 
 
-# 4. remove login path
+# remove login path
 
     mysql_config_editor remove --login-path=설정이름
 
 
-# 5. use login path
+# use login path
 
     $ mysql --login-path=설정이름
 
 흠.. 편하네요. 스크립트로 자동화할 때 훨씬 편하게 세팅할 수 있습니다.
 
-# 6. location of config file
+# location of config file
 윈도우인 경우는 `%APPDATA%\MySQL` 디렉토리에 `.mylogin.cnf` 파일이 생성됩니다. unix계열은 로그인 계정의 홈 디렉토리에  파일이 생성됩니다. 
 이 파일은 암호화 되어 있는 것으로 보이네요. 당연하겠지요
  

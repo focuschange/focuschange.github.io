@@ -18,7 +18,7 @@ extensions:
 > 아무튼 없으니, 만들어야지...
 
 
-# 1. Introduction
+# Introduction
 payload score란 문서의 키워드에 절대적인 값을 주어 검색을 할 때 이 절대적인 값으로 정렬 등 부가적인 scoring이 가능하도록 구성하는 것을 말한다. 이는 루씬에서 아주 예전부터 지원하던 기능으로 알고 있으며, solr같은 경우는 항상 기본 기능으로 제공한다.
 
 헌데, elasticsearch는 아주 예전 버전부터 payload score를 지원하지 않고 있다. 
@@ -33,7 +33,7 @@ payload score란 문서의 키워드에 절대적인 값을 주어 검색을 할
 [여기](https://github.com/focuschange/elasticsearch-payload-score)에 전체 소스가 있으니 참고하기 바란다.
 
 
-# 2. index
+# index
 색인 데이터를 구성할 때, 특정 키워드에 가중치를 주기 위해 다음과 같이 field를 구성한다고 가정하자
 
 ```javascript
@@ -69,7 +69,7 @@ payload 값은 term_vector에 들어가게 되는데, term offset 다음에 저�
 
 다음은 전체적인 settings, mappings 내용이다.
 
-### elasticsearch setting & mapping
+## elasticsearch setting & mapping
 
 
 ```javascript
@@ -118,7 +118,7 @@ payload 값은 term_vector에 들어가게 되는데, term offset 다음에 저�
 }
 ```
 
-# 3. search
+# search
 이제 우리가 필요로 하는 payload score 검색 기능을 구현하기 위해 plug-in을 만들어야 한다.
 script score 기능으로 plug-in을 만들 것이며, 기본적인 소스는 [여기](https://github.com/elastic/elasticsearch/tree/master/plugins/examples/script-expert-scoring)를 참조하면 된다.
 공식 샘플소스는 gradle로 되어 있는데, 아마도 모두 클로닝해서 컴파일 하면 에러가 날 것이다.
@@ -139,7 +139,7 @@ maven dependency는 다음과 같다.
 6.x버전이 되면서 script plug-in 기본 인터페이스가 ScriptPlugin으로 변경된 것 같다.(*사실 이전 버전은 잘 모른다. 5.x버전과 비교해 보니 완전히 바뀌어 있었다*)
 
 
-### Plug-in Class 생성
+## Plug-in Class 생성
 아래는 plug-in 생성을 위한 코드이다.
 코드 중에 _SOURCE_VALUE와 _LANG_VALUE를 통해 script score를 명시할 것이다.
 
@@ -289,7 +289,7 @@ index field에는 동일한 term이 여러개 있을 수 있으며, 각 term마�
  소스는 짧고 간단하니, 상세한 설명은.. 패스~
 
 
-# 4. 컴파일 및 설치
+# 컴파일 및 설치
 컴파일은 다음과 같이 하면 된다.
 ```bash
 maven clean package
@@ -310,7 +310,7 @@ $ ES_HOME/bin/elasticsearch-plugin install file:///PROJECT_HOME/releases/payload
 [2018-11-21T22:04:11,793][INFO ][o.e.p.PluginsService     ] [standalone] loaded plugin [payload_score]
 ```
 
-# 5. example test
+# example test
 테스트를 위해 아래와 같이 간단히 bulk index용 컬렉션을 만들었다.
 
 **test_collection.json**
