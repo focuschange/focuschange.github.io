@@ -124,9 +124,11 @@ defaults:
       permalink: /posts/:title/
   -
     scope:
-      path: _drafts
+      path: drafts
     values:
-      comments: false
+      layout: post
+      comments: false    # Enable comments in posts.
+      toc: true         # Display TOC column in posts.
   -
     scope:
       path: ''
