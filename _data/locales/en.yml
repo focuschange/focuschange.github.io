@@ -43,7 +43,7 @@ copyright:
     link: https://creativecommons.org/licenses/by/4.0/
 
   # Displayed in the footer
-  brief: All rights reserved.
+  brief: Some rights reserved.
   verbose: >-
     Except where otherwise noted, the blog posts on this site are licensed
     under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.
@@ -59,7 +59,8 @@ not_found:
 # ----- Posts related labels -----
 
 post:
-  published: 'on'
+  written_by: By
+  posted: Posted
   updated: Updated
   timeago:
     day: days ago
