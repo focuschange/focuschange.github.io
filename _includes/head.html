@@ -72,4 +72,8 @@
 
   <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
 
+  {% if site.google_analytics.id %}
+    {% include google-analytics.html %}
+  {% endif %}
+
 </head>
