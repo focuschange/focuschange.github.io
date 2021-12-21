@@ -602,3 +602,17 @@ script_score에서 source, lang을 프로그램에서 설정한 값으로 입력
  
 
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8993100314477491"
+     crossorigin="anonymous"></script>
+<!-- 디스플레이광고-수평형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8993100314477491"
+     data-ad-slot="9549119208"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
