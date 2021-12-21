@@ -17,6 +17,18 @@ extensions:
 > elastic search가 payload score를 기본으로 지원하지 않는 이유를 잘 모르겠다. 요구하는 사람들이 꽤 있는 것 같은데..
 > 아무튼 없으니, 만들어야지...
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8993100314477491"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8993100314477491"
+     data-ad-slot="6115278830"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 # Introduction
 payload score란 문서의 키워드에 절대적인 값을 주어 검색을 할 때 이 절대적인 값으로 정렬 등 부가적인 scoring이 가능하도록 구성하는 것을 말한다. 이는 루씬에서 아주 예전부터 지원하던 기능으로 알고 있으며, solr같은 경우는 항상 기본 기능으로 제공한다.
