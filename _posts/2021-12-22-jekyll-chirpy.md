@@ -62,7 +62,7 @@ chirpy 테마는 아래 두가지 방법으로 설치할 수 있습니다.
 [Fork Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/fork){:target="_blank"} 를 사용하여 소스를 내가 생성한 저장소로 fork 받습니다.  
 화면에서 나의 계정을 선택하면 바로 fork 되어 아래 화면 처럼 jekyll-theme-chirpy 저장소가 자동 생성됩니다.  
 
-![fork 결과](/assets/img/jekyll-theme-chirpy-fork-result.jpg)
+![fork 결과](/assets/img/jekyll-theme-chirpy-fork-result.jpg){:style="border:1px solid #eaeaea; border-radius: 7px; padding: 0px;" }
 
 ## Repository 이름 바꾸기
 개인 도메인이 있다면 Repository명을 임의로 줘도 상관 없으나, github의 기본 도메인을 사용할 때는 `<github 아이디>.github.io` 형식으로 만들어야 합니다.  
@@ -118,12 +118,12 @@ $ jekyll serve
 ```
 
 정상적으로 수행됐다면 아래와 같이 출력됩니다.
-![jekyll serve 결과](/assets/img/jekyll_serve_running.jpg)
+![jekyll serve 결과](/assets/img/jekyll_serve_running.jpg){:style="border:1px solid #eaeaea; border-radius: 7px; padding: 0px;" }
 
 내용에서 보시면, `Server address: http://127.0.0.1:4000/` 라는 것이 있군요.  
 브라우저를 열어서 해당 주소를 입력해 봅시다.  
 그러면 아래와 같이 기본 블로그 화면이 나타납니다.
-![chirpy 최초 실행](/assets/img/first-meet-chirpy.jpg)
+![chirpy 최초 실행](/assets/img/first-meet-chirpy.jpg){:style="border:1px solid #eaeaea; border-radius: 7px; padding: 0px;" }
 
 
 위 화면이 잘 나오면 로컬에서 테스트는 성공입니다.
@@ -147,7 +147,7 @@ $ jekyll serve
 ---
 ## 소스 둘러보기
 소스 목록을 보면 아래와 같이 보일 겁니다.
-![chirpy 최초 실행](/assets/img/chirpy-file-list.jpg)
+![chirpy 최초 실행](/assets/img/chirpy-file-list.jpg){:style="border:1px solid #eaeaea; border-radius: 7px; padding: 0px;" }
 
 사실 모든 것을 알 필요는 없지만, 블로그 환경 설정과 커스터마이징을 위해 몇가지는 알아둘 필요가 있습니다.  
 본 글에서는 환경 세팅만 할 예정이기에 깊게 살펴보지는 않겠습니다만, 몇몇개 내용을 기억해 둡시다.
@@ -248,7 +248,7 @@ $ git push
 ## github에서 무슨 일이?
 push를 하게되면 github은 자동으로 블로그 페이지를 만들어 줍니다. 시간이 좀 걸리는데요.. 잠시 살펴 봅시다.   
 github의 저장소에 가보면, `Actions`라는 탭이 상단에 있습니다. 이를 클릭해 보면 아래와 같이 나타납니다.   
-![깃헙 커밋 액션](/assets/img/github-commit-action.jpg)
+![깃헙 커밋 액션](/assets/img/github-commit-action.jpg){:style="border:1px solid #eaeaea; border-radius: 7px; padding: 0px;" }
 <br>
 위에서 commit할 때, `first commit`이라고 메세지를 넣어 두었습니다.  
 위 그림에서 보이는 `first commit`이 그 내용입니다.  
@@ -257,7 +257,7 @@ github의 저장소에 가보면, `Actions`라는 탭이 상단에 있습니다.
 
 소스를 push하게 되면, github은 자동으로 page build와 deployment를 수행합니다.   
 이때, 중요한 것이, github이 `gh-pages` 라는 브랜치를 자동으로 생성해 줍니다.(사실, 이와 관련된 세팅이 이미 chirpy theme에 모두 들어 있습니다)
-![gh-pages](/assets/img/build-gh-pages.jpg)
+![gh-pages](/assets/img/build-gh-pages.jpg){:style="border:1px solid #eaeaea; border-radius: 7px; padding: 0px;" }
 
 블로그 사이트는 이 브랜치에서 실제 내용이 구성되게 됩니다.   
 우리가 push한 것은 master 브랜치이고, 여기에는 사이트에 대한 기본 구조가 없습니다.   
@@ -268,7 +268,7 @@ github의 저장소에 가보면, `Actions`라는 탭이 상단에 있습니다.
 저장소의 상단 탭에 `Settings`가 있습니다. 이곳에서 서비스 페이지의 브랜치를 `gh-pages`로 변경해 줘야 합니다.
 아래 그림처럼 순서대로 클릭하면 브랜치 리스트가 보입니다.
 이중에 `gh-pages`를 선택하고 `Save` 버튼을 클릭합니다.
-![change gh-pages](/assets/img/change-branch.jpg)
+![change gh-pages](/assets/img/change-branch.jpg){:style="border:1px solid #eaeaea; border-radius: 7px; padding: 0px;" }
 <br>
 브랜치를 바꾸면 또다시 자동으로 build & deployment가 일어납니다. Actions 탭에 가 보면 적용중인 것이 보일 겁니다.   
 
@@ -277,7 +277,7 @@ github의 저장소에 가보면, `Actions`라는 탭이 상단에 있습니다.
 자동 배포가 완료되면 드디어 블로그 세팅이 끝난 것입니다. 나의 사이트에 들어가서 내용을 확인해 봅시다.   
 저의 경우는 [https://focuschange-test.github.io/](https://focuschange-test.github.io/){:target="_blank"}가 이렇게 나오네요~  
 성공입니다~  
-![completed install](/assets/img/Chirpy_install_completed.jpg)
+![completed install](/assets/img/Chirpy_install_completed.jpg){:style="border:1px solid #eaeaea; border-radius: 7px; padding: 0px;" }
 
 
 ## 뒷정리
