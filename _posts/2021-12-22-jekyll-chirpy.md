@@ -8,7 +8,11 @@ img: null
 tags: jekyll chirpy github-blog github blog
 categories: jekyll chirpy
 date: '2021-12-22 11:17:00 +0900'
-
+image:
+  src: /assets/img/Chirpy-title-image.jpg
+  width: 1000   # in pixels
+  height: 400   # in pixels
+  alt: image alternative text
 ---
 
 > 오래전 도메인을 살려두기 위해 jekyll로 블로그를 만들어 두었었는데, 항상 UI가 엉성해서 맘에 안들었었습니다.\
