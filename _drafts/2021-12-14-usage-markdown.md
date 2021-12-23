@@ -1,7 +1,7 @@
 ---
 title: 마크다운(Markdown) 문법 테스트 페이지
 date: 2021-12-20 12:15:33 +0900
-categories: [jekyll]
+categories: [jekyll, markdown]
 tags: [마크다운, markdown, 마크다운-문법]
 toc: true
 toc_sticky: true
@@ -15,6 +15,17 @@ image:
   alt: image alternative text
 ---
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8993100314477491"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8993100314477491"
+     data-ad-slot="6115278830"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기본 문단
 
