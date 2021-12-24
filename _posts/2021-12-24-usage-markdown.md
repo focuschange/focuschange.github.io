@@ -179,4 +179,19 @@ image:
 * [kramdown 사용법](http://gjchoi.github.io/env/Kramdown%28%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4%29-%EC%82%AC%EC%9A%A9%EB%B2%95/){:target="_blank"}
 * [Front Matter](https://jekyllrb.com/docs/front-matter/){:target="_blank"}
 
-
+<br>
+<div class="card">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8993100314477491"
+     crossorigin="anonymous"></script>
+<!-- 디스플레이광고-수평형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8993100314477491"
+     data-ad-slot="9549119208"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<br>
