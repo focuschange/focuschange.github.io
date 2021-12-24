@@ -18,6 +18,21 @@ tags: [embulk,bigquery,vertica,etl]
 ``` macOS High Sierra 기준입니다. ```
 
 
+<div class="card">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8993100314477491"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8993100314477491"
+     data-ad-slot="6115278830"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+
 # 1. embulk 설치하고 실행하기
 embulk를 설치하는 것은 아주 간단합니다.
 아래와 같이 입력하면 설치가 끝납니다.

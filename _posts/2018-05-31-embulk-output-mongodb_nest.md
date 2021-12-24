@@ -16,7 +16,23 @@ extensions:
 
 > embulk-output-mongodb 플러그인이 공식사이트에서 링크가 죽었군요. 
 > gem repository 에서 install은 가능하지만, 회사에서 사용하기 좀 뭐 해서 그냥 만들어 봤습니다.
-> 참.. 쉽네요  :sweat_smile:
+> 참.. 쉽네요  😉
+
+
+<div class="card">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8993100314477491"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8993100314477491"
+     data-ad-slot="6115278830"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
 
 
 ## 개발 방법

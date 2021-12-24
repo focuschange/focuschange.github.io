@@ -22,6 +22,8 @@ image:
 > 오직 chirpy 테마로 블로그 만드는 것에만 집중하여 정리합니다.\
 > MacOS 기준으로 작성합니다
 
+<br>
+<div class="card">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8993100314477491"
      crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
@@ -33,6 +35,7 @@ image:
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
 
 
 # 로컬 환경 설정 하기
@@ -308,6 +311,8 @@ front 수정은 상당히 난해(?)해서 최대한 손대지 않는 테마를 �
 * git 튜토리얼 : <https://evan-moon.github.io/2019/07/25/git-tutorial/>{:target="_blank"}  
 
 
+<br>
+<div class="card">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8993100314477491"
      crossorigin="anonymous"></script>
 <!-- 디스플레이광고-수평형 -->
@@ -320,3 +325,5 @@ front 수정은 상당히 난해(?)해서 최대한 손대지 않는 테마를 �
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
+<br>

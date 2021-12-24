@@ -15,6 +15,8 @@ image:
   alt: image alternative text
 ---
 
+<br>
+<div class="card">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8993100314477491"
      crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
@@ -26,6 +28,8 @@ image:
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
+<br>
 
 # 기본 문단
 
