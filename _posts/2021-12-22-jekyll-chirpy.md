@@ -2,7 +2,7 @@
 layout: post
 title: Jekyll Chirpy 테마 사용하여 블로그 만들기
 author: 하얀눈길
-description: jekyll로 구성되었던 블로그를 요즘 인기 있는 chirpy 테마로 변경하면서 알게된 내용들을 기록함
+description: jekyll chirpy github-blog github blog chirpy 테마 블로그만들기, 하얀눈길 
 featuredImage: null
 img: null
 tags: jekyll chirpy github-blog github blog
