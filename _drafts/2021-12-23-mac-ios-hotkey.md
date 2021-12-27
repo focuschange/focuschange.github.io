@@ -5,8 +5,8 @@ author: 하얀눈길
 description: mac macbook 맥북 핫키 hotkey intellij pycharm
 featuredImage: null
 img: null
-tags: mac macbook 맥북 핫키 hotkey intellij pycharm
-categories: macos
+tags: [mac, macbook, 맥북, 핫키, hotkey, intellij, pycharm]
+categories: [tools, mac]
 date: '2021-12-23 10:17:00 +0900'
 
 ---

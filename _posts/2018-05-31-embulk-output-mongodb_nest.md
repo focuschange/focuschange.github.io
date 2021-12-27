@@ -6,7 +6,7 @@ description: null
 tags: [embulk, embulk-output-mongodb_nest, mongodb]
 featuredImage: 
 img: 
-categories: embulk
+categories: [tools, embulk]
 date: '2018-05-31'
 extensions:
   preset: gfm

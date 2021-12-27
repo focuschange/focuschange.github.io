@@ -3,16 +3,16 @@
 # ----- Commons label -----
 
 layout:
-  post: Post
-  category: Category
-  tag: Tag
+  post: 포스트
+  category: 카테고리
+  tag: 태그
 
 # The tabs of sidebar
 tabs:
   # format: <filename_without_extension>: <value>
-  home: Home
-  categories: Categories
-  tags: Tags
+  home: 홈
+  categories: 카테고리
+  tags: 태그
   archives: Archives
   about: About
 
@@ -38,12 +38,12 @@ date_format:
 copyright:
   # Shown at the bottom of the post
   license:
-    #template: This post is licensed under :LICENSE_NAME by the author.
+    template: This post is licensed under :LICENSE_NAME by the author.
     name: CC BY 4.0
     link: https://creativecommons.org/licenses/by/4.0/
 
   # Displayed in the footer
-  brief: All rights reserved.
+  brief: Some rights reserved.
   verbose: >-
     Except where otherwise noted, the blog posts on this site are licensed
     under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.

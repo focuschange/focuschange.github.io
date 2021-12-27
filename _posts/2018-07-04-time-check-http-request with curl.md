@@ -6,7 +6,7 @@ description: null
 tags: [curl, http]
 featuredImage: 
 img: 
-categories: http
+categories: [tools, http]
 date: '2018-07-04'
 extensions:
   preset: gfm

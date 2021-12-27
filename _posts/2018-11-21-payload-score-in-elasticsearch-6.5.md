@@ -6,7 +6,7 @@ description: null
 tags: 'elasticsearch, elasticsearch6.5, payload, payload-score, score, ranking, script-score'
 featuredImage: null
 img: null
-categories: 'elasticsearch'
+categories: [search-engine, elasticsearch]
 date: '2018-11-21'
 extensions:
   preset: gfm

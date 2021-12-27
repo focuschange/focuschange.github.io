@@ -6,7 +6,7 @@ description: null
 tags: 'mysql, login, path'
 featuredImage: null
 img: null
-categories: 'mysql'
+categories: [tools, mysql]
 date: '2018-11-13'
 extensions:
   preset: gfm

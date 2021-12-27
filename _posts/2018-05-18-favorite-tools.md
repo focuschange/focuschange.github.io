@@ -6,7 +6,7 @@ description: null
 tags: [developer-tool,개발툴]
 featuredImage: null
 img: null
-categories: tool
+categories: [tools]
 date: '2018-05-18'
 extensions:
   preset: gfm
