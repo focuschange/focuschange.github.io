@@ -21,6 +21,11 @@ image:
 > 그래서 다른 것을 알아보다가 [Utterances](https://utteranc.es/){:target="_blank"}를 알게 되었습니다.\
 > github의 이슈를 댓글로 표시하는 것으로 무료이면서 설치도 단순하고 ui도 깔끔합니다.
 
+> 관련글 : 
+* [Jekyll Chirpy 테마 사용하여 블로그 만들기](https://www.irgroup.org/posts/jekyll-chirpy/){:target="_blank"}
+* [Chirpy 테마 커스터마이징](https://www.irgroup.org/posts/Chirpy-%ED%85%8C%EB%A7%88-%EC%BB%A4%EC%8A%A4%ED%84%B0%EB%A7%88%EC%9D%B4%EC%A7%95/){:target="_blank"}
+
+
 <!-- 상단 광고 -->
 <br>
 <div class="card">

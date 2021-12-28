@@ -22,6 +22,10 @@ image:
 > 오직 chirpy 테마로 블로그 만드는 것에만 집중하여 정리합니다.\
 > MacOS 기준으로 작성합니다
 
+> 관련글 : 
+* [Chirpy 테마 커스터마이징](https://www.irgroup.org/posts/Chirpy-%ED%85%8C%EB%A7%88-%EC%BB%A4%EC%8A%A4%ED%84%B0%EB%A7%88%EC%9D%B4%EC%A7%95/){:target="_blank"}
+* [Jekyll 테마에 utterances 댓글 연동하기](https://www.irgroup.org/posts/utternace-comments-system/){:target="_blank"}
+
 <br>
 <div class="card">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8993100314477491"
