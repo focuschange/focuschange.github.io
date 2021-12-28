@@ -167,7 +167,7 @@ image:
 * 예시
 
   ```
-    ![깃헙 커밋 액션](/assets/img/github-commit-action.jpg){:style="border:1px solid #eaeaea; border-radius: 7px; padding: 0px;" }`
+    ![깃헙 커밋 액션](/assets/img/github-commit-action.jpg){:style="border:1px solid #eaeaea; border-radius: 7px; padding: 0px;" }
   ```
 * 결과
   ![깃헙 커밋 액션](/assets/img/github-commit-action.jpg){:style="border:1px solid #eaeaea; border-radius: 7px; padding: 0px;" }
