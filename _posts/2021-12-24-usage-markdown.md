@@ -144,6 +144,29 @@ image:
   }
 ```
 
+## liquid 문법은 코드 블럭에 표시하기
+{% assign endmark = "{" % endraw % }" %}
+소스블럭 내에서 `{{ "%7B%25+raw+%25%7D" | url_decode}}` `{{ "%7B%25+endraw+%25%7D" | url_decode}}`를 사용한다.    
+
+```liquid
+...
+{% raw %}
+{% include lang.html %}
+{% endraw %}
+{{ "%7B%25+raw+%25%7D" | url_decode}}
+{% raw %}
+{% if page.image.src %}
+  {% capture bg %}
+    {% unless page.image.no_bg %}{{ 'bg' }}{% endunless %}
+  {% endcapture %}
+{% endif %}
+{% endraw %}
+{{ "%7B%25+endraw+%25%7D" | url_decode}}
+
+...
+
+```
+
 # 링크
 ---
 * 기본 형식 : `[링크텍스트](링크)`
