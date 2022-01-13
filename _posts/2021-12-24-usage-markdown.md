@@ -1,6 +1,7 @@
 ---
 title: jekyll에서 마크다운(Markdown) 사용하기
 date: 2021-12-24 12:15:33 +0900
+lastmod: 2022-01-13 14:51:33 +0900
 categories: [jekyll, markdown]
 tags: [마크다운, markdown, 마크다운-문법, kramdown, chirpy]
 description: jekyll, 마크다운, markdown, 마크다운-문법, kramdown, chirpy, 하얀눈길
