@@ -1,5 +1,5 @@
 User-agent: *
 
-Disallow: /norobots/
+Allow: /
 
 Sitemap: https://www.irgroup.org/sitemap.xml
