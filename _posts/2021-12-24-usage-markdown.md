@@ -11,7 +11,7 @@ toc_label: 목차
 math: true
 mermaid: true
 image:
-  src: https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1200px-Markdown-mark.svg.png
+  src: /assets/img/Markdown-mark.png
   width: 1000   # in pixels
   height: 400   # in pixels
   alt: image alternative text

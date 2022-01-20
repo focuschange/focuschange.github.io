@@ -1,9 +1,10 @@
 ---
+layout: post
 title: Jekyll 테마에서 구글 검색 노출 등록하기
 date: 2022-01-13 15:11:33 +0900
 categories: [jekyll]
 tags: [jekyll, chirpy, google, google search, search engine, 검색노출, 구글검색, sitemap.xml, sitemap, 사이트맵]
-description: jekyll, chirpy, google, google search, search engine, 검색노출, 구글검색, sitemap.xml, sitemap, 사이트맵
+description: 우리나라는 naver의 영향력이 막강하지만, 외부의 블로그나 사이트들은 그래도 구글을 통한 인입이 강력한 편입니다. jekyll 테마에서 구글 검색엔진에 포스트 글들이 검색되도록 설정해 보겠습니다.
 toc: true
 math: true
 mermaid: true
