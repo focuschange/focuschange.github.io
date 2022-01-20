@@ -23,7 +23,7 @@ title: 하얀눈길 블로그                          # the main title
 tagline: 반갑습니다. 하얀눈길입니다.<br> 잊어버리기 전에 기록하려 합니다.
 
 description: >-                        # used by seo meta and the atom feed
-  검색, 정보검색, information retrieval, irgroup, IT, programming, it일반, java, data-engineering, data-science, data-analysis, 데이터조직, 데이터, 조직관리, 검색엔진개발자그
+  검색엔진 개발자 그룹이었으나, 현재는 개인 블로그로만 운영합니다. 예전 글들은 천천히 올려보려 합니다. 개발자로서 새롭게 알게된 것이나, 잊어버리고 있는 많은 것을 기록해 보려 합니다.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://www.irgroup.org'
